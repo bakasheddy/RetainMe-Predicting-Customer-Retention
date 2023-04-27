@@ -26,11 +26,13 @@ Below is the customer data of account holders at ABC Multinational Bank and the 
 - the most dorminant people in the bank are of the age range 19 - 39
 - the age groups who churn the most are of the age range 40 - 59
 - the most active and inactive gae groups are young adults, i.e 19 - 39
+- most workers earn low salaries and have balance 
+- most people who churn have low balnce and earn low salary
 - the most important feature to determine churn is age
 
 # Key finding
 
-> middle age group churn the most from all other age groups, there could be several reasons why this happens
+> Age is the most importannt feaauture to determine churn possibility, middle age group churn the most from all other age groups, there could be several reasons why this happens
 
 - Career Plateau: Middle-aged employees may have been with the organization for a while and may have reached a plateau in their careers. They may feel like they have hit a ceiling in terms of opportunities for advancement, and may become bored or disillusioned with their work.
 
@@ -42,7 +44,7 @@ Below is the customer data of account holders at ABC Multinational Bank and the 
 
 - Lack of Job Satisfaction: Middle-aged employees may have higher expectations for job satisfaction and fulfillment, and may be less willing to tolerate a job that doesn't meet those expectations. If they feel like their work is not meaningful or fulfilling, they may be more likely to leave the organization.
 
-> 
+> Another important feature to determine churn possibility is salary and it is discovered that most of the workers earn low salaries and have low balance in their account. people with low salary will churn the most in other to meet ends need
 
 
 
