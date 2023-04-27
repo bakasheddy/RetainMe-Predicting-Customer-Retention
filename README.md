@@ -48,5 +48,5 @@ Below is the customer data of account holders at ABC Multinational Bank and the 
 
 # Model Performance
 
-![image]('./images/rm2.jpg')
+![image](./images/rm2.jpg)
 
