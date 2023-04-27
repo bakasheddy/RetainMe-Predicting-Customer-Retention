@@ -42,5 +42,7 @@ Below is the customer data of account holders at ABC Multinational Bank and the 
 
 - Lack of Job Satisfaction: Middle-aged employees may have higher expectations for job satisfaction and fulfillment, and may be less willing to tolerate a job that doesn't meet those expectations. If they feel like their work is not meaningful or fulfilling, they may be more likely to leave the organization.
 
+> 
+
 
 
