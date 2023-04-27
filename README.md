@@ -1,4 +1,6 @@
-# RetainMe-Predicting-Customer-Retention
+<centre> # RetainMe-Predicting-Customer-Retention </centre>
+<centre> by </centre>
+<centre> Shedrack David </centre>
 
 # About dataset
 
