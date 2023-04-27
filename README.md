@@ -46,5 +46,7 @@ Below is the customer data of account holders at ABC Multinational Bank and the 
 
 > Another important feature to determine churn possibility is salary and it is discovered that most of the workers earn low salaries and have low balance in their account. people with low salary will churn the most in other to meet ends need
 
+# Model Performance
 
+![image]('./images/rm2.jpg')
 
