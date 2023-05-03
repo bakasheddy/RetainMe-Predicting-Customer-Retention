@@ -39,3 +39,6 @@ Below is the customer data of account holders at ABC Multinational Bank and the 
 
     """
 )
+
+df = pd.read_csv('Bank Customer Churn Prediction Dataset.csv')
+st.table(df.head(5))
