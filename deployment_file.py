@@ -12,11 +12,12 @@ from sklearn.metrics import confusion_matrix
 
 st.write(
     """
-    # RetainMe-Predicting-Customer-Retention
-### by
-## Shedrack David
+    # RetainMe: Predicting-Customer-Retention
+    """)
 
-### About dataset
+st.image('./images/churn.JPG')
+
+st.write("""### About dataset
 
 This dataset is for ABC Multistate bank, the dataset has 10000 entries with no duplicates or missing values, it has 10000 rows and 12 columns with following column names:
 
@@ -38,7 +39,7 @@ Every bank wants to hold there customers for sustaining their business so the AB
 Below is the customer data of account holders at ABC Multinational Bank and the aim of the data will be predicting the Customer Churn.
 
     """
-)
+         )
 
 df = pd.read_csv('Bank Customer Churn Prediction Dataset.csv')
 st.table(df.head(5))
