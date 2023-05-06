@@ -49,8 +49,11 @@ X = df[['credit_score', 'age', 'tenure', 'balance', 'products_number',
         'credit_card', 'active_member', 'estimated_salary']]
 y = df['churn']
 
+with st.sidebar.header('set split parameter'):
+    split_size = st.sidebar.slider("% of training set")
+
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=101)
+    X, y, test_size=split_size, random_state=101)
 
 rfc = RandomForestClassifier(
     n_estimators=300, max_features=2, min_samples_split=10)
