@@ -10,8 +10,15 @@ from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 from sklearn.ensemble import AdaBoostClassifier
 
+df = pd.read_csv('Bank Customer Churn Prediction Dataset.csv')
+X = df[['credit_score', 'age', 'tenure', 'balance', 'products_number',
+        'credit_card', 'active_member', 'estimated_salary']]
+y = df['churn']
 
-st.write(
+nav = st.sidebar.radio("Navigations", ['Home', 'Predictions'])
+
+if nav == "Home":
+    st.write(
     """
     # RetainMe: Predicting-Customer-Retention
     """)
@@ -42,12 +49,9 @@ Below is the customer data of account holders at ABC Multinational Bank and the 
     """
          )
 
-df = pd.read_csv('Bank Customer Churn Prediction Dataset.csv')
-st.table(df.head(5))
 
-X = df[['credit_score', 'age', 'tenure', 'balance', 'products_number',
-        'credit_card', 'active_member', 'estimated_salary']]
-y = df['churn']
+st.table(df.head(5))
+    
 
 with st.sidebar.header('set split parameter'):
     split_size = st.sidebar.slider("% of training set")
