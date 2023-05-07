@@ -52,18 +52,18 @@ st.table(df.head(5))
     
 if nav == 'Predictions':
     with st.sidebar.header('set split parameter'):
-        split_size = st.sidebar.slider("% of training set")
+        split_size = st.sidebar.slider("% of training set", value = 70)
 
-    X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=split_size, random_state=101)
+        X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=split_size, random_state=101)
 
-    rfc = RandomForestClassifier(
-    n_estimators=300, max_features=2, min_samples_split=10)
-    rfc.fit(X_train, y_train)
+        rfc = RandomForestClassifier(
+        n_estimators=300, max_features=2, min_samples_split=10)
+        rfc.fit(X_train, y_train)
 
 
-    ada = AdaBoostClassifier(base_estimator=rfc, n_estimators=100, random_state=42)
-    ada.fit(X_train, y_train)
-    y_pred = ada.predict(X_test)
+        ada = AdaBoostClassifier(base_estimator=rfc, n_estimators=100, random_state=42)
+        ada.fit(X_train, y_train)
+        y_pred = ada.predict(X_test)
     
 
