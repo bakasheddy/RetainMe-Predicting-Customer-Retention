@@ -48,8 +48,6 @@ Below is the customer data of account holders at ABC Multinational Bank and the 
 
     """
          )
-
-
 st.table(df.head(5))
     
 
