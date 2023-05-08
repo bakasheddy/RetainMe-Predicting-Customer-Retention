@@ -1,3 +1,4 @@
+![image](./images/churn.JPG)
 # <centre> RetainMe-Predicting-Customer-Retention </centre>
 ### <centre> by </centre>
 ## <centre> Shedrack David </centre>
