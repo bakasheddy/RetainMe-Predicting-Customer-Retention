@@ -54,12 +54,7 @@ if nav == 'Predictions':
     with st.sidebar.header('set split parameter'):
         
         split_size = st.sidebar.slider("% of training set", value = 70)
-        
-        st.slider('set age', value= 16)
-        st.slider('tenure', max_value = 10, value= 1)
-        st.selectbox('Gender', ['Male', 'Female'], index= 1)
-        st.number_input('estimated_salary', min_value = 11.580000, max_value = 199992.480000)  
-
+         
         X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=split_size, random_state=101)
 
@@ -71,3 +66,13 @@ if nav == 'Predictions':
         ada.fit(X_train, y_train)
         y_pred = ada.predict(X_test)
     
+
+    with st.sidebar.header('set parameters for predictions'):    
+        age = st.slider('set age', value= 16)
+        tenure = st.slider('tenure', max_value = 10, value= 1)
+        gender = st.selectbox('Gender', ['Male', 'Female'], index= 1)
+        es_salary = st.number_input('estimated_salary', min_value = df['estimated_salary'].min(), max_value = df['estimated_salary'].max())
+        credit_score = st.number_input('credit_score', min_value = df['credit_score'].min(), max_value = df['credit_score'].max())
+        balance = st.number_input('balance', max_value = df['balance'].max())
+
+       
