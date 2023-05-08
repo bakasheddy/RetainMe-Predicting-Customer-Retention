@@ -52,7 +52,13 @@ st.table(df.head(5))
     
 if nav == 'Predictions':
     with st.sidebar.header('set split parameter'):
+        
         split_size = st.sidebar.slider("% of training set", value = 70)
+        
+        st.slider('set age', value= 16)
+        st.slider('tenure', max_value = 10, value= 1)
+        st.selectbox('Gender', ['Male', 'Female'], index= 1)
+        st.number_input('estimated_salary', min_value = 11.580000, max_value = 199992.480000)  
 
         X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=split_size, random_state=101)
@@ -64,6 +70,4 @@ if nav == 'Predictions':
         ada = AdaBoostClassifier(base_estimator=rfc, n_estimators=100, random_state=42)
         ada.fit(X_train, y_train)
         y_pred = ada.predict(X_test)
-    st.sidebar.slider('set age', value= 16)
-    st.sidebar.selectbox('Gender', ['Male', 'Female'], index= 1)
-
+    
