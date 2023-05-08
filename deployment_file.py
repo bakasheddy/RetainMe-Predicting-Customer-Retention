@@ -61,9 +61,9 @@ if nav == 'Predictions':
         n_estimators=300, max_features=2, min_samples_split=10)
         rfc.fit(X_train, y_train)
 
-
         ada = AdaBoostClassifier(base_estimator=rfc, n_estimators=100, random_state=42)
         ada.fit(X_train, y_train)
         y_pred = ada.predict(X_test)
-    
+    st.sidebar.slider('set age', value= 16)
+    st.sidebar.selectbox('Gender', ['Male', 'Female'], index= 1)
 
