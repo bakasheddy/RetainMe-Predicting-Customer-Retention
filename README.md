@@ -53,5 +53,4 @@ Below is the customer data of account holders at ABC Multinational Bank and the 
 
 ![image](./images/rm2.JPG)
 
-[Link to trained model: ](https://drive.google.com/file/d/1_N3lFSx6MdoZWXPCe7jRQ9y_TetZL8ZO/view?usp=share_link)
 
