@@ -33,9 +33,9 @@ churn, used as the target. 1 if the client has left the bank during some period 
 - gender groups who churn the most is female
 - the most dorminant people in the bank are of the age range 19 - 39
 - the age groups who churn the most are of the age range 40 - 59
-- the most active and inactive gae groups are young adults, i.e 19 - 39
+- the most active and inactive age group is young adults, i.e 19 - 39
 - most workers earn low salaries and have balance 
-- most people who churn have low balnce and earn low salary
+- most people who churn have low balance and earn low salary
 - the most important feature to determine churn is age
 
 # Key finding
