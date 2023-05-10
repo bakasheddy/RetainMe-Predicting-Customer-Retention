@@ -3,9 +3,18 @@
 ### <centre> by </centre>
 ## <centre> Shedrack David </centre>
 
+# Aim
+This project was conducted to predict the possibility of churn among bank employees and analyze the various reasons why it may occur, as well as the circumstances surrounding their decision.
+
 # About dataset
 
-This dataset is for ABC Multistate bank, the dataset has 10000 entries with no duplicates or missing values, it has 10000 rows and 12 columns with following column names:
+Every bank wants to hold there customers for sustaining their business so the ABC Multinational bank. Bank ABC (incorporated as Arab Banking Corporation B.S.C) is an international bank headquartered in Manama, Kingdom of Bahrain. Our network spreads across five continents, covering countries in the Middle East, North Africa, Europe, the Americas and Asia.
+
+Bank ABC, founded in 1980, is listed on the Bahrain Bourse and our major shareholders are the Central Bank of Libya and Kuwait Investment Authority.
+
+Bank ABC is a leading provider of Trade Finance, Treasury, Project & Structured Finance, Syndications, Corporate & Institutional Banking as well as Islamic Banking services. We are also expanding our retail banking network in the MENA region.
+
+Bank ABC is licensed as a conventional wholesale bank by the Central Bank of Bahrain. The dataset used for this model training is for ABC Multistate bank, the dataset has 10000 entries with no duplicates or missing values, it has 10000 rows and 12 columns with following column names:
 
 customer_id, unused variable.
 credit_score, used as input.
@@ -19,10 +28,6 @@ credit_card, used as input.
 active_member, used as input.
 estimated_salary, used as input.
 churn, used as the target. 1 if the client has left the bank during some period or 0 if he/she has not.
-
-Every bank wants to hold there customers for sustaining their business so the ABC Multinational bank.
-
-Below is the customer data of account holders at ABC Multinational Bank and the aim of the data will be predicting the Customer Churn.
 
 # Summary of findings
 - gender groups who churn the most is female
