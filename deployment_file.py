@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib as plt
+import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
@@ -20,6 +20,14 @@ if nav == "Home":
 
     st.write("""### About dataset
 
+Every bank wants to hold there customers for sustaining their business so the ABC Multinational bank.
+Bank ABC (incorporated as Arab Banking Corporation B.S.C) is an international bank headquartered in Manama, Kingdom of Bahrain. Our network spreads across five continents, covering countries in the Middle East, North Africa, Europe, the Americas and Asia. 
+
+Bank ABC, founded in 1980, is listed on the Bahrain Bourse and our major shareholders are the Central Bank of Libya and Kuwait Investment Authority. 
+
+Bank ABC is a leading provider of Trade Finance, Treasury, Project & Structured Finance, Syndications, Corporate & Institutional Banking as well as Islamic Banking services. We are also expanding our retail banking network in the MENA region.
+
+Bank ABC is licensed as a conventional wholesale bank by the Central Bank of Bahrain.
 The dataset used for this model training is for ABC Multistate bank, the dataset has 10000 entries with no duplicates or missing values, it has 10000 rows and 12 columns with following column names:
 
 - customer_id, unused variable.
@@ -35,13 +43,15 @@ The dataset used for this model training is for ABC Multistate bank, the dataset
 - estimated_salary, used as input.
 - churn, used as the target. 1 if the client has left the bank during some period or 0 if he/she has not.
 
-Every bank wants to hold there customers for sustaining their business so the ABC Multinational bank.
-
-Below is the customer data of account holders at ABC Multinational Bank and the aim of the data will be predicting the Customer Churn.
-
     """
          )
     st.dataframe(df)
+    st.write("""
+        by Shedrack David
+        connect with me on [linkedin](https://www.linkedin.com/in/shedrack-david-1a116b235/)
+        
+        click [here](https://github.com/bakasheddy/RetainMe-Predicting-Customer-Retention.git) to view project on github, and check out my [Portfolio](akasheddy.github.io/Portfolio/)
+        """)
     
 elif nav == 'Predictions':
     st.image('./images/churn.JPG')
@@ -82,7 +92,7 @@ elif nav == 'Predictions':
     st.header('Specified Parameters')
     st.write(dff)
     st.write('---')
-    file_name = 'RetainMe_Model'
+    file_name = './RetainMe_Model.pkl'
     loaded_model = pickle.load(open(file_name, 'rb'))
     predictions = loaded_model.predict(dff)
     
