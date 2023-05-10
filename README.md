@@ -4,7 +4,7 @@
 ## <centre> Shedrack David </centre>
 
 # Aim
-This project was conducted to predict the possibility of churn among bank employees and analyze the various reasons why it may occur, as well as the circumstances surrounding their decision.
+This project was conducted to predict the possibility of churn among bank customers and analyze the various reasons why it may occur, as well as the circumstances surrounding their decision.
 
 # About dataset
 
@@ -34,7 +34,7 @@ churn, used as the target. 1 if the client has left the bank during some period 
 - the most dorminant people in the bank are of the age range 19 - 39
 - the age groups who churn the most are of the age range 40 - 59
 - the most active and inactive age group is young adults, i.e 19 - 39
-- most workers earn low salaries and have balance 
+- most customers earn low salaries and have balance 
 - most people who churn have low balance and earn low salary
 - the most important feature to determine churn is age
 
@@ -52,7 +52,7 @@ churn, used as the target. 1 if the client has left the bank during some period 
 
 - Lack of Job Satisfaction: Middle-aged employees may have higher expectations for job satisfaction and fulfillment, and may be less willing to tolerate a job that doesn't meet those expectations. If they feel like their work is not meaningful or fulfilling, they may be more likely to leave the organization.
 
-> Another important feature to determine churn possibility is salary and it is discovered that most of the workers earn low salaries and have low balance in their account. people with low salary will churn the most in other to meet ends need
+> Another important feature to determine churn possibility is salary and it is discovered that most of the customers earn low salaries and have low balance in their account. people with low salary will churn the most in other to meet ends need
 
 # Model Evaluation
 
