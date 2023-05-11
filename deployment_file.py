@@ -16,7 +16,7 @@ if nav == "Home":
     # RetainMe: Predicting-Customer-Retention
     """)
 
-    st.image('./images/churn.JPG')
+    st.image('churn.JPG')
 
     st.write("""### About dataset
 
