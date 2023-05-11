@@ -16,7 +16,7 @@ if nav == "Home":
     # RetainMe: Predicting-Customer-Retention
     """)
 
-    st.image('churn.JPG')
+    st.image('./images/churn.jpg')
 
     st.write("""### About dataset
 
@@ -54,7 +54,7 @@ The dataset used for this model training is for ABC Multistate bank, the dataset
         """)
     
 elif nav == 'Predictions':
-    st.image('churn.JPG')
+    st.image('./images/churn.jpg')
     st.sidebar.subheader('set parameters for predictions')
     def user_input_features():
         
