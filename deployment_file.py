@@ -54,7 +54,7 @@ The dataset used for this model training is for ABC Multistate bank, the dataset
         """)
     
 elif nav == 'Predictions':
-    st.image('./images/churn.JPG')
+    st.image('churn.JPG')
     st.sidebar.subheader('set parameters for predictions')
     def user_input_features():
         
