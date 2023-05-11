@@ -3,6 +3,7 @@
 ### <centre> by </centre>
 ## <centre> Shedrack David </centre>
 
+#### click [here](https://bakasheddy-retainme-predicting-customer--deployment-file-l0sism.streamlit.app/) to view live model
 # Aim
 This project was conducted to predict the possibility of churn among bank customers and analyze the various reasons why it may occur, as well as the circumstances surrounding their decision.
 
