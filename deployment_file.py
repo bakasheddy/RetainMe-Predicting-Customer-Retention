@@ -50,7 +50,7 @@ The dataset used for this model training is for ABC Multistate bank, the dataset
         by Shedrack David
         connect with me on [linkedin](https://www.linkedin.com/in/shedrack-david-1a116b235/)
         
-        click [here](https://github.com/bakasheddy/RetainMe-Predicting-Customer-Retention.git) to view project on github, and check out my [Portfolio](akasheddy.github.io/Portfolio/)
+        click [here](https://github.com/bakasheddy/RetainMe-Predicting-Customer-Retention.git) to view project on github, and check out my [Portfolio](bakasheddy.github.io/Portfolio/)
         """)
     
 elif nav == 'Predictions':
